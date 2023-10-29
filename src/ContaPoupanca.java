@@ -14,11 +14,11 @@ public class ContaPoupanca extends ContaBancaria implements Imprimivel{
 
     @Override
     public void depositar(double valor) {
-        saldo += valor
+        saldo += valor;
     }
 
     @Override
     public void mostrarDados() {
-
+        System.out.println("Conta Poupança: " + numeroConta + " Saldo: " + saldo);
     }
 }

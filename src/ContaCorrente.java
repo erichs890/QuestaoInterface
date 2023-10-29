@@ -19,6 +19,6 @@ double taxaDeOperacao;
 
     @Override
     public void mostrarDados() {
-        System.out.println();
+        System.out.println("Conta Poupança: " + numeroConta + " Saldo: " + saldo);
     }
 }
