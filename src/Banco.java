@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Banco implements Imprimivel {
-    private ArrayList<ContaBancaria> contas;
+     ArrayList<ContaBancaria> contas;
 
     public Banco() {
         this.contas = new ArrayList<>();
